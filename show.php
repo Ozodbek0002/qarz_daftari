@@ -119,7 +119,7 @@ include 'baza.php';
                         }
                     }
                     else { ?>
-                        <h1 class="text text-center m-3">Hozircha qarzdorlar mavjud emas</h1>
+                        <h1 class="text text-center m-3">Hozircha qarzdorlar yo'q</h1>
 
                     <?php } ?>
 
