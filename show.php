@@ -75,7 +75,7 @@ include 'baza.php';
                             ?>
 
                             <tr style=" text-align: center">
-                                <td style=" width: 10%; " class="fw-bold"><?php echo $d ?></td>
+                                <td style=" width: 10%; " class="fw-bold"><?php echo $d; ?></td>
 
                                 <td style=" width: 25%">
                                     <?php
@@ -119,7 +119,7 @@ include 'baza.php';
                         }
                     }
                     else { ?>
-                        <h1 class="text text-center m-3">Hozircha qarzdorlar yo'q</h1>
+                        <h1 class="text text-center m-3">Hozircha qarzdorlar mavjud emas</h1>
 
                     <?php } ?>
 
